@@ -20,17 +20,17 @@ t.pencolor('blue')
 t.circle(100)
 
 t.up()
-t.right(40)
-t.forward(75)
+t.right(40)       ## 오른쪽으로 40만큼 ##
+t.forward(75)     ## 앞으로 75방향만큼 맞추어서 네번째 오륜기 모양을 완성 ##
 t.down()
-t.pencolor('yellow')
+t.pencolor('yellow')  ## 컬러는 노란색으로 ##
 t.circle(100)
 
 t.up()
-t.right(108)
-t.backward(300)
+t.right(108)      ## 다시 오른쪽으로 108만큼 ##
+t.backward(300)   ## 뒤로 300방향을 주어 다섯번째 오륜기 모양을 완성 ##
 t.down()
-t.pencolor('green')
+t.pencolor('green')  ## 컬러는 초록색으로 ##
 t.circle(100)
 
 t.done()
