@@ -21,5 +21,5 @@ def screenLeftClick(x,y):
 ## 함수 선언 부분 ##
 
 turtle.shape('turtle')
-turtle.onscreenclick(screenLeftClick, 1)
-turtle.done()
+turtle.onscreenclick(screenLeftClick, 1)  ## 화면을 왼쪽마우스로 클릭했을때 실행이 됩니다 ##
+turtle.done()   ## 파일을 실행시키고 끝나지않게 done을 선언하였습니다 ##
